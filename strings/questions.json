@@ -1,0 +1,153 @@
+[
+    {
+        "question": "What is the result of the following code?<br><br>console.log('JavaScript'.length);",
+        "answers": {
+            "a": "10",
+            "b": "9",
+            "c": "11",
+            "d": "8"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "What will the following code output?<br><br>console.log('Hello'.toUpperCase());",
+        "answers": {
+            "a": "'HELLO'",
+            "b": "'Hello'",
+            "c": "'hello'",
+            "d": "'HELlo'"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What is the result of the following code?<br><br>console.log('   Trim me!   '.trim());",
+        "answers": {
+            "a": "'Trim me!'",
+            "b": "'   Trim me!'",
+            "c": "'Trim me!   '",
+            "d": "'   Trim me!   '"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What does the `charAt(0)` method do?<br><br>console.log('Hello'.charAt(0));",
+        "answers": {
+            "a": "Returns the first character of the string",
+            "b": "Returns the last character of the string",
+            "c": "Returns a substring from the start",
+            "d": "Returns a substring from the end"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What is the result of the following code?<br><br>console.log('JavaScript'.includes('Script'));",
+        "answers": {
+            "a": "true",
+            "b": "false",
+            "c": "undefined",
+            "d": "Error"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What will the following code output?<br><br>console.log('JavaScript'.slice(4, 10));",
+        "answers": {
+            "a": "'Script'",
+            "b": "'Script!'",
+            "c": "'Java'",
+            "d": "'Script!'"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What does the `indexOf('a')` method return?<br><br>console.log('JavaScript'.indexOf('a'));",
+        "answers": {
+            "a": "1",
+            "b": "2",
+            "c": "3",
+            "d": "4"
+        },
+        "correctAnswer": "1"
+    },
+    {
+        "question": "What is the result of the following code?<br><br>console.log('Hello'.repeat(3));",
+        "answers": {
+            "a": "'HelloHelloHello'",
+            "b": "'HelloHello Hello'",
+            "c": "'Hello Hello Hello'",
+            "d": "'HelloHelloHelloHello'"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What does the `split(' ')` method do?<br><br>console.log('Hello World'.split(' '));",
+        "answers": {
+            "a": "Splits the string into an array of words",
+            "b": "Removes spaces from the string",
+            "c": "Joins the array into a single string",
+            "d": "Returns the number of spaces"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What will `console.log('Hello'.concat(' World'));` output?",
+        "answers": {
+            "a": "'Hello World'",
+            "b": "'HelloWorld'",
+            "c": "'Hello World!'",
+            "d": "'Hello World '"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What will the following code output?<br><br>console.log('Hello'.replace('l', 'x'));",
+        "answers": {
+            "a": "'Hexxo'",
+            "b": "'Hexlo'",
+            "c": "'Helxo'",
+            "d": "'Hello'"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What is the result of the following code?<br><br>console.log('Hello'.startsWith('He'));",
+        "answers": {
+            "a": "true",
+            "b": "false",
+            "c": "undefined",
+            "d": "Error"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What will `console.log('JavaScript'.substring(4, 10));` output?",
+        "answers": {
+            "a": "'Script'",
+            "b": "'Script!'",
+            "c": "'JavaS'",
+            "d": "'JavaScript'"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Write a program that takes a string and converts all characters to lowercase. For example, the string \"best PrograMMing languages oF 2024\" should be converted to \"best programming languages of 2024\"."
+    },
+    {
+        "question": "Write a program that extracts the year from a date string in the format \"YYYY-MM-DD\". For example, from the date \"2024-08-26\", the program should return \"2024\"."
+    },
+    {
+        "question": "Write a program that checks if a given email address contains the '@' character. For example, for the email \"example@gmail.com\", the program should return true."
+    },
+    {
+        "question": "Write a program that masks a part of a sensitive information string. For example, the phone number \"123-456-7890\" should be masked to \"123-***-7890\"."
+    },
+    {
+        "question": "Write a program that extracts the last 4 digits from a card number string in the format \"1234-5678-9876-5432\". The program should return \"5432\"."
+    },
+    {
+        "question": "Write a program that splits a phone number string \"2344-546-789\" by the hyphen '-' and returns an array of the parts. For example, the result should be [\"2344\", \"546\", \"789\"]."
+    },
+    {
+        "question": "Write a program that concatenates two strings with a space in between. For example, concatenating \"Hello\" and \"World\" should result in \"Hello World\"."
+    }
+]

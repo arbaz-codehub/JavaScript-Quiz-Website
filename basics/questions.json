@@ -1,0 +1,425 @@
+[
+    {
+        "question": "Who created JavaScript?",
+        "answers": {
+            "a": "Guido van Rossum",
+            "b": "James Gosling",
+            "c": "Brendan Eich",
+            "d": "Tim Berners-Lee"
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "In which year was JavaScript created?",
+        "answers": {
+            "a": "1995",
+            "b": "2000",
+            "c": "1985",
+            "d": "2010"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What was the original name of JavaScript?",
+        "answers": {
+            "a": "Java",
+            "b": "Mocha",
+            "c": "LiveScript",
+            "d": "CoffeeScript"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Which company first implemented JavaScript?",
+        "answers": {
+            "a": "Microsoft",
+            "b": "Apple",
+            "c": "Netscape",
+            "d": "Google"
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "JavaScript was initially developed as a language for which purpose?",
+        "answers": {
+            "a": "Server-side scripting",
+            "b": "Web browsers",
+            "c": "Operating systems",
+            "d": "Mobile apps"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "What was JavaScript initially called when it was first released?",
+        "answers": {
+            "a": "LiveScript",
+            "b": "JavaScript",
+            "c": "JScript",
+            "d": "ECMAScript"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which version of ECMAScript standardized modern JavaScript features like arrow functions?",
+        "answers": {
+            "a": "ES3",
+            "b": "ES5",
+            "c": "ES6",
+            "d": "ES7"
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "Which company developed JScript, a dialect of JavaScript?",
+        "answers": {
+            "a": "Netscape",
+            "b": "Microsoft",
+            "c": "Sun Microsystems",
+            "d": "Google"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "When was ECMAScript 6 (ES6) officially released?",
+        "answers": {
+            "a": "2013",
+            "b": "2014",
+            "c": "2015",
+            "d": "2016"
+        },
+        "correctAnswer": "c"
+    },
+
+    {
+        "question": "What is the correct way to declare a JavaScript variable?",
+        "answers": {
+            "a": "variable myVar;",
+            "b": "v myVar;",
+            "c": "var myVar;",
+            "d": "declare myVar;"
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "Which keyword can be used to create a constant variable in JavaScript?",
+        "answers": {
+            "a": "let",
+            "b": "var",
+            "c": "fixed",
+            "d": "const"
+        },
+        "correctAnswer": "d"
+    },
+    {
+        "question": "Which keyword is used to declare a variable in JavaScript?",
+        "answers": {
+            "a": "var",
+            "b": "const",
+            "c": "let",
+            "d": "All of the above"
+        },
+        "correctAnswer": "d"
+    },
+    {
+        "question": "How do you declare multiple variables in one statement?",
+        "answers": {
+            "a": "var a, b, c;",
+            "b": "let a and b and c;",
+            "c": "const a; const b; const c;",
+            "d": "All of the above"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What will happen if you try to redeclare a `const` variable?",
+        "answers": {
+            "a": "It will work normally.",
+            "b": "Syntax Error",
+            "c": "The value will change",
+            "d": "Undefined behavior"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "What is the default value of an uninitialized variable in JavaScript?",
+        "answers": {
+            "a": "null",
+            "b": "0",
+            "c": "undefined",
+            "d": "NaN"
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "What does `let` prevent that `var` does not?",
+        "answers": {
+            "a": "Reassigning a value",
+            "b": "Redeclaring the variable",
+            "c": "Declaring in a loop",
+            "d": "Using a variable before its declaration"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Which of the following is true about `const`?",
+        "answers": {
+            "a": "The variable's value can be changed after declaration.",
+            "b": "The variable must be initialized at the time of declaration.",
+            "c": "It creates a global variable.",
+            "d": "It cannot be used in strict mode."
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Guess the output:<br><br>let x = 10;<br>x = x + 5;<br>console.log(x);",
+        "answers": {
+            "a": "10",
+            "b": "15",
+            "c": "5",
+            "d": "undefined"
+        },
+        "correctAnswer": "b"
+    },
+
+    {
+        "question": "Which of the following is NOT a primitive data type in JavaScript?",
+        "answers": {
+            "a": "String",
+            "b": "Number",
+            "c": "Object",
+            "d": "Boolean"
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "What type will `typeof 42` return?",
+        "answers": {
+            "a": "'number'",
+            "b": "'string'",
+            "c": "'boolean'",
+            "d": "'undefined'"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What is the output of `typeof 'Hello'`?",
+        "answers": {
+            "a": "'string'",
+            "b": "'number'",
+            "c": "'boolean'",
+            "d": "'object'"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What will `typeof null` return?",
+        "answers": {
+            "a": "'object'",
+            "b": "'null'",
+            "c": "'undefined'",
+            "d": "'string'"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Guess the output:<br><br>typeof undefined;",
+        "answers": {
+            "a": "'null'",
+            "b": "'undefined'",
+            "c": "'object'",
+            "d": "'boolean'"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Which primitive data type represents an empty value?",
+        "answers": {
+            "a": "NaN",
+            "b": "null",
+            "c": "undefined",
+            "d": "None of the above"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Guess the output:<br><br>let a;<br>console.log(typeof a);",
+        "answers": {
+            "a": "'undefined'",
+            "b": "'null'",
+            "c": "'object'",
+            "d": "'boolean'"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What will be the output of `typeof true`?",
+        "answers": {
+            "a": "'boolean'",
+            "b": "'true'",
+            "c": "'string'",
+            "d": "'number'"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What will the output be?<br><br>console.log(3 + 5 * 2);",
+        "answers": {
+            "a": "16",
+            "b": "13",
+            "c": "10",
+            "d": "None of the above"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Which operator is used to assign a value to a variable?",
+        "answers": {
+            "a": "=",
+            "b": "==",
+            "c": "===",
+            "d": "=>"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What does the `===` operator check in JavaScript?",
+        "answers": {
+            "a": "Equality of value",
+            "b": "Equality of value and type",
+            "c": "Only type",
+            "d": "Only reference"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Which operator is used to check for 'strict inequality'?",
+        "answers": {
+            "a": "!=",
+            "b": "!==",
+            "c": "!===",
+            "d": "=="
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Guess the output:<br><br>let a = 5;<br>console.log(a++);",
+        "answers": {
+            "a": "5",
+            "b": "6",
+            "c": "4",
+            "d": "Error"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What will `10 % 3` return?",
+        "answers": {
+            "a": "1",
+            "b": "3",
+            "c": "0",
+            "d": "7"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which operator will compare both value and type?",
+        "answers": {
+            "a": "==",
+            "b": "=",
+            "c": "===",
+            "d": "!=="
+        },
+        "correctAnswer": "c"
+    },
+
+    {
+        "question": "What is the output of the following code?<br><br>console.log('Hello, World!');",
+        "answers": {
+            "a": "'Hello, World!'",
+            "b": "undefined",
+            "c": "Syntax Error",
+            "d": "None of the above"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which method would you use to print an error message to the console?",
+        "answers": {
+            "a": "console.printError()",
+            "b": "console.error()",
+            "c": "console.alert()",
+            "d": "console.warn()"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "What will the following code output?<br><br>console.log(typeof console);",
+        "answers": {
+            "a": "'function'",
+            "b": "'object'",
+            "c": "'undefined'",
+            "d": "'string'"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Which console method is used to log a warning message?",
+        "answers": {
+            "a": "console.log()",
+            "b": "console.alert()",
+            "c": "console.warn()",
+            "d": "console.message()"
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "What will `console.table()` do in JavaScript?",
+        "answers": {
+            "a": "Displays data as a table in the console",
+            "b": "Formats text with indentation",
+            "c": "Displays a pie chart",
+            "d": "Logs messages sequentially"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which console method starts a timer that can be stopped and logged?",
+        "answers": {
+            "a": "console.count()",
+            "b": "console.timer()",
+            "c": "console.time()",
+            "d": "console.startTimer()"
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "Guess the output:<br><br>console.clear(); console.log('Hello');",
+        "answers": {
+            "a": "'Hello'",
+            "b": "Clears the console and prints 'Hello'",
+            "c": "Clears the console and prints nothing",
+            "d": "Syntax Error"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Which console method is useful to group console output and make it collapsible?",
+        "answers": {
+            "a": "console.groupCollapsed()",
+            "b": "console.groupEnd()",
+            "c": "console.collapsibleGroup()",
+            "d": "console.collapse()"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What is the output of the following code?<br><br>console.log('Hello'); console.error('Oops!');",
+        "answers": {
+            "a": "Prints 'Hello' and logs an error 'Oops!'",
+            "b": "Prints 'Hello' only",
+            "c": "Prints 'Oops!' only",
+            "d": "Error in console"
+        },
+        "correctAnswer": "a"
+    }
+]
