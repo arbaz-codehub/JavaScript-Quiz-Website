@@ -1,5 +1,7 @@
 # JavaScript Quiz Website
 
+![Modern Quiz Website](project2.png)
+
 ## Overview
 The JavaScript Quiz Website is an interactive platform designed to help students test their knowledge of JavaScript through quizzes. The website features a minimalistic homepage with a beautiful gradient background and a navigation bar that opens quizzes on various JavaScript topics. Questions are dynamically loaded via JSON, providing a seamless user experience.
 
